@@ -1,5 +1,7 @@
+/********************************
+            Font style 
+********************************/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:wght@300;400&display=swap');
-
 a, p, h1, h2, h3, h4, h5 { font-family: 'Lato', sans-serif; letter-spacing: .2rem; }
 a { text-decoration: none; color: #fff; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
 p { margin-bottom: 0; font-size: 13px; }
@@ -10,9 +12,18 @@ h4 span { font-weight: 100; }
 a span { font-size: 12px; }
 
 
+/********************************
+            Global
+********************************/
+body { background: #070707; }
+.title { display: flex; }
+.title_component { height: 100%; }
+.title_content { position: sticky; overflow: visible; top: 70px; }
 
 
-
+/********************************
+            Navbar
+********************************/
 .navbar { position: fixed; z-index: 99999; width: 100%; }
 nav { background: #00000000; font-size: 12px; color: #fff; }
 a.navbar-brand { width: 40px; height: 40px; margin: 0; }
@@ -23,45 +34,29 @@ a.navbar-brand img { width: 85%; }
 .navbar-toggler-icon { background-image: url(../images/menu.svg); background-repeat: no-repeat; width: 20px; height: 20px; }
 
 
-
+/********************************
+            Home
+********************************/
 .home { background: url(../images/background.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: top center; background-size: cover; position: relative; height: 100vh; display: flex; justify-content: center; align-items: center; }
 .home img { width: 20%; }
 
 
-
-
-.services { padding-top: 80px; padding-bottom: 60px; background: #070707; color: #fff; }
+/********************************
+            Services
+********************************/
+.services { padding-top: 80px; padding-bottom: 60px; color: #fff; }
 .services_contents { padding-bottom: 30px; margin-bottom: 30px; border-bottom: 1px solid #222; }
-.title { display: flex; }
 .services_link { display: flex; align-items: center; justify-content: center; }
 .services_link a:hover { color: #c2c2c2; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
-.title_component { height: 100%; }
-.title_content { position: sticky; overflow: visible; top: 70px; }
 
 
-
+/********************************
+            Break 1
+********************************/
 .break_1 { background: url(../images/background2.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: top center; background-size: cover; position: relative; height: 40vh; display: flex; justify-content: center; align-items: center; color: #fff;}
 
 
-
-
-@media screen and (max-width: 768px) {
-
-.navbar-brand { width: 30px; height: 40px; }
-.navbar-collapse { position: fixed; top: 0; left: 0; padding-left: 15px; padding-right: 15px; padding-bottom: 15px; height: 100%; background: #000; display: flex; justify-content: center; align-items: center; text-align: center; }
-.navbar-collapse.collapsing { height: 100%; margin-left: 50%; left: 50%; transition: all 0.2s ease; width: 100%; }
-.navbar-collapse.show { height: 100%; width:100%; right: 0; transition: all 400ms ease-in-out; }
-.navbar-toggler.collapsed ~ .navbar-collapse { transition: all 400ms ease-in; }
-.navbar-toggler i { color: #fff; }
-.close_bottom { margin-top: 20px; }
-
-
-.home img { width: 65%; }
-
-
-.title { margin-bottom: 50px; }
-.services_link { margin-top: 20px; }
-.services_contents { margin-bottom: 50px; }
-.services { padding-bottom: 30px; }
-
-}
+/********************************
+            Portfolio
+********************************/
+.portfolio { padding-top: 80px; padding-bottom: 80px; color: #fff;}

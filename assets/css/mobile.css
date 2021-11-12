@@ -1,0 +1,23 @@
+/********************************
+            Mobile
+********************************/
+@media screen and (max-width: 768px) {
+
+    .navbar-brand { width: 30px; height: 40px; }
+    .navbar-collapse { position: fixed; top: 0; left: 0; padding-left: 15px; padding-right: 15px; padding-bottom: 15px; height: 100%; background: #000; display: flex; justify-content: center; align-items: center; text-align: center; }
+    .navbar-collapse.collapsing { height: 100%; margin-left: 50%; left: 50%; transition: all 0.2s ease; width: 100%; }
+    .navbar-collapse.show { height: 100%; width:100%; right: 0; transition: all 400ms ease-in-out; }
+    .navbar-toggler.collapsed ~ .navbar-collapse { transition: all 400ms ease-in; }
+    .navbar-toggler i { color: #fff; }
+    .close_bottom { margin-top: 20px; }
+    
+    
+    .home img { width: 65%; }
+    
+    
+    .title { margin-bottom: 50px; }
+    .services_link { margin-top: 20px; }
+    .services_contents { margin-bottom: 50px; }
+    .services { padding-bottom: 30px; }
+    
+    }
