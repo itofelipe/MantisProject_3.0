@@ -75,3 +75,34 @@ a.navbar-brand img { width: 85%; }
             Break 2
 ********************************/
 .break_2 { background: url(../images/background3.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: top center; background-size: cover; position: relative; height: 40vh; display: flex; justify-content: center; align-items: center; color: #fff;}
+
+
+
+
+
+
+.codes {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.codes_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.codes_icon_img {
+    width: 45%;
+}
+
+
+footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #000;
+}
+
+.footer_sns_links {
+    text-align: center;
+}
