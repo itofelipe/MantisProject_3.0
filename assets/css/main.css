@@ -62,24 +62,16 @@ a.navbar-brand img { width: 85%; }
 .portfolio { padding-top: 80px; padding-bottom: 80px; color: #fff;}
 
 
+/********************************
+            Clients
+********************************/
+.clients { padding-bottom: 80px; }
+.clients_logo { display: flex; justify-content: center; align-items: center; }
+.clients_logo_img { width: 65%; }
+@media (min-width: 992px) { .seven-cols .col-md-1, .seven-cols .col-sm-1, .seven-cols .col-lg-1 { width: 14.285714285714285714285714285714%; *width: 14.285714285714285714285714285714%; } }
 
 
-.clients_logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.clients_logo_img {
-    width: 65%;
-}
-
-  
-  @media (min-width: 992px) {
-    .seven-cols .col-md-1,
-    .seven-cols .col-sm-1,
-    .seven-cols .col-lg-1 {
-      width: 14.285714285714285714285714285714%;
-      *width: 14.285714285714285714285714285714%;
-    }
-  }
+/********************************
+            Break 2
+********************************/
+.break_2 { background: url(../images/background3.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: top center; background-size: cover; position: relative; height: 40vh; display: flex; justify-content: center; align-items: center; color: #fff;}
