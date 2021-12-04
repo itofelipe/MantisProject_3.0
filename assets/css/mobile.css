@@ -20,6 +20,10 @@
     .services_contents { margin-bottom: 50px; }
     .services { padding-bottom: 30px; }
 
-    .seven-cols .col-md-1, .seven-cols .col-sm-1, .seven-cols .col-lg-1  { width: 100%; *width: 100%; }
+    .clients_logo { display: flex; justify-content: center; align-items: center; flex: 33%; }
+
+    .codes { padding-top: 80px; padding-bottom: 60px; }
+    .col.codes_icon { flex: 25%; margin-bottom: 20px; }
+
     
     }

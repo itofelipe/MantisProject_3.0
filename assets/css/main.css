@@ -60,7 +60,20 @@ a.navbar-brand img { width: 85%; }
             Portfolio
 ********************************/
 .portfolio { padding-top: 80px; padding-bottom: 80px; color: #fff;}
-
+.psc_margin { margin-top: 50px; }
+.portfolio_slide_category { font-size: 13px; font-weight: 700; font-style: italic; margin-bottom: 25px; }
+.portfolio_slide_content { background: #000; width: 100%; padding-top: 25px; padding-bottom: 25px; border-bottom: 2px solid #ffffff; text-align: center; display: flex; }
+.portfolio_slide_content_box { display: flex; justify-content: center; flex-wrap: wrap; }
+.pb_title { width: 72%; justify-content: initial; }
+.pb_title_graphic { width: 100%; justify-content: initial; }
+.pb_b { width: 28%; justify-content: end; }
+.portfolio_slide_content_box h4 { margin: 0; font-size: 18px; }
+.portfolio_slide_content_box a { background: #fff; color: #000; font-size: 10px; font-weight: 700; padding: 5px 20px 5px; border-radius: 100px; margin-top: 0; }
+.portfolio_slide_content_box a:hover { background: #707070; color: #fff; }
+.owl-theme .owl-dots .owl-dot span{ background: #fff; }
+.owl-nav { margin-top: 20px; }
+.fa, .fas { font-size: 25px; }
+button.owl-next { margin-left: 10px; }
 
 /********************************
             Clients
@@ -68,7 +81,7 @@ a.navbar-brand img { width: 85%; }
 .clients { padding-bottom: 80px; }
 .clients_logo { display: flex; justify-content: center; align-items: center; }
 .clients_logo_img { width: 65%; }
-@media (min-width: 992px) { .seven-cols .col-md-1, .seven-cols .col-sm-1, .seven-cols .col-lg-1 { width: 14.285714285714285714285714285714%; *width: 14.285714285714285714285714285714%; } }
+.clients_logo { display: flex; justify-content: center; align-items: center; flex: 1 0 0%; }
 
 
 /********************************
