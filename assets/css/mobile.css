@@ -3,6 +3,9 @@
 ********************************/
 @media screen and (max-width: 768px) {
 
+    /********************************
+                Navbar
+    ********************************/
     .navbar-brand { width: 30px; height: 40px; }
     .navbar-collapse { position: fixed; top: 0; left: 0; padding-left: 15px; padding-right: 15px; padding-bottom: 15px; height: 100%; background: #000; display: flex; justify-content: center; align-items: center; text-align: center; }
     .navbar-collapse.collapsing { height: 100%; margin-left: 50%; left: 50%; transition: all 0.2s ease; width: 100%; }
@@ -11,19 +14,40 @@
     .navbar-toggler i { color: #fff; }
     .close_bottom { margin-top: 20px; }
     
-    
+
+    /********************************
+                Home
+    ********************************/
     .home img { width: 65%; }
     
     
+    /********************************
+                Services
+    ********************************/
     .title { margin-bottom: 50px; }
     .services_link { margin-top: 20px; }
     .services_contents { margin-bottom: 50px; }
     .services { padding-bottom: 30px; }
 
+
+    /********************************
+                Clients
+    ********************************/
     .clients_logo { display: flex; justify-content: center; align-items: center; flex: 33%; }
 
+
+    /********************************
+                Codes
+    ********************************/
     .codes { padding-top: 80px; padding-bottom: 60px; }
     .col.codes_icon { flex: 25%; margin-bottom: 20px; }
 
-    
+
+    /********************************
+                Footer
+    ********************************/
+    .title_content { text-align: center; margin-bottom: 50px; }
+    .footer_sns_links { margin-bottom: 30px; }
+    .footer_logo { display: none; }
+    .footer_icon_img img { width: 13%; }
     }

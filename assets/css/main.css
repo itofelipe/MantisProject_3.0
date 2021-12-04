@@ -90,65 +90,24 @@ button.owl-next { margin-left: 10px; }
 .break_2 { background: url(../images/background3.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: top center; background-size: cover; position: relative; height: 40vh; display: flex; justify-content: center; align-items: center; color: #fff;}
 
 
+/********************************
+            Codes
+********************************/
+.codes { padding-top: 80px; padding-bottom: 80px; }
+.codes_icon { display: flex; justify-content: center; align-items: center; }
+.codes_icon_img { width: 45%; }
 
 
-
-
-.codes {
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-.codes_icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.codes_icon_img {
-    width: 45%;
-}
-
-
-footer {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background: #000;
-}
-
-.footer_sns_links {
-    text-align: center;
-}
-.footer_sns_links_small {
-    font-size: 11px;
-    letter-spacing: 0;
-    padding-top: 15px;
-}
-.footer_sns_links_regular {
-    font-size: 18px;
-    letter-spacing: 0;
-}
-.footer_sns_links_icon i {
-    font-size: 23px;
-}
-.footer_logo {
-    display: flex;
-    justify-content: end;
-}
-.footer_logo img {
-    width: 50%;
-}
-.footer_icon {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background: #000;
-
-}
-.footer_icon_img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer_icon_img img {
-    width: 3%;
-}
+/********************************
+            Footer
+********************************/
+footer { padding-top: 80px; padding-bottom: 80px; background: #000; }
+.footer_sns_links { text-align: center; }
+.footer_sns_links_small { font-size: 11px; letter-spacing: 0; padding-top: 15px; }
+.footer_sns_links_regular { font-size: 18px; letter-spacing: 0; }
+.footer_sns_links_icon i { font-size: 23px; }
+.footer_logo { display: flex; justify-content: end; }
+.footer_logo img { width: 50%; }
+.footer_icon { padding-top: 10px; padding-bottom: 10px; background: #000; }
+.footer_icon_img { display: flex; justify-content: center; align-items: center; }
+.footer_icon_img img { width: 3%; }
