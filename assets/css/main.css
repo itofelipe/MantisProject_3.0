@@ -105,6 +105,7 @@ footer { padding-top: 80px; padding-bottom: 80px; background: #000; }
 .footer_sns_links { text-align: center; }
 .footer_sns_links_small { font-size: 11px; letter-spacing: 0; padding-top: 15px; }
 .footer_sns_links_regular { font-size: 18px; letter-spacing: 0; }
+a.footer_sns_links_icon:hover { color: #c2c2c2; }
 .footer_sns_links_icon i { font-size: 23px; }
 .footer_logo { display: flex; justify-content: end; }
 .footer_logo img { width: 50%; }
