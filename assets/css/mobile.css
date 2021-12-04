@@ -46,7 +46,7 @@
     /********************************
                 Footer
     ********************************/
-    .title_content { text-align: center; margin-bottom: 50px; }
+    .title_content { text-align: initial; margin-bottom: 50px; }
     .footer_sns_links { margin-bottom: 30px; }
     .footer_logo { display: none; }
     .footer_icon_img img { width: 13%; }
