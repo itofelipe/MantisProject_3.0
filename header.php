@@ -38,7 +38,7 @@
                         </li>
                         <li class="close_bottom">
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-                                <i class="bi bi-x-circle"></i>
+                                <i class="far fa-times-circle"></i>
                             </button>
                         </li>
                     </ul>

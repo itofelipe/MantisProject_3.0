@@ -4,7 +4,7 @@
 		wp_enqueue_style('bootstrap_css');
 		wp_register_style( 'owl_css', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' );
 		wp_enqueue_style('owl_css');
-		wp_register_style( 'Font_Awesome', 'https://pro.fontawesome.com/releases/v5.10.0/css/all.css' );
+		wp_register_style( 'Font_Awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css' );
 		wp_enqueue_style('Font_Awesome');
 		wp_register_style( 'Animate_css', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' );
 		wp_enqueue_style('Animate_css');

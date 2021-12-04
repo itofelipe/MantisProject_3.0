@@ -1,5 +1,5 @@
 
-    <footer class="footer">
+    <footer id="contact" class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-4">
